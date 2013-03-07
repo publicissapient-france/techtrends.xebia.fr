@@ -26,6 +26,7 @@ $(function () {
   $('#defaultCountdown').countdown({until: austDay, format: 'DHMS',}); 
 
 });
+
 </script>
   </head>
   <body>
@@ -41,19 +42,17 @@ $(function () {
         <div class="logo-techtrends"> </div>
         <div class="text">Décryptage des technologies de demain pour vous aider &agrave; op&eacute;rer d&egrave;s aujourd'hui des choix d'avenir dans votre SI.</div>
       </div>
-
-      <div class="row">
-
+       <div class="row">
         <div id="stylized" class="subscribe">
-          <h2>Inscription conférence TechTrends</h2>
-          <div class="form-container">
-            <form name="form" method="post" action="#" >
-              <input type="text" name="name" id="name" value="Nom et prénom"/>
-              <input type="text" name="email" id="email" value="Email"/>
-              <button type="submit">S'inscrire</button>
-            </form>
-          </div>
-        </div>
+           <h2>Inscription conférence TechTrends</h2>
+           <div class="form-container">
+ <form name="form" onsubmit="location='mailto:recrutement@xebia.fr?subject='+escape(this.title.value)+'&body=Name:'+escape(this.name.value)+'%0D%0A'+'Email:'+escape(this.mail.value); return false">
+            <input type="text" name="name" id="name" value ="Nom" equired tabindex="8">
+           <input type="email" name="mail" id="email" value ="Email" required tabindex="9">
+           <button type="submit">S'inscrire</button>
+        </form>
+      </div>
+    </div>
         <div class="timer-zone">
             <h2>&agrave; t&eacute;l&eacute;charger dans...</h2>
              <div id="defaultCountdown"></div>

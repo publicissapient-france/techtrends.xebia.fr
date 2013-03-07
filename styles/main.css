@@ -22,8 +22,8 @@ body header .legend{
     letter-spacing:5px;
 	width: 80%;
 	position: absolute;
-	right: 10px;
-	top: 120px;
+	right: 0px;
+	top: 118px;
 	background-color: #330b2e;
 	color: gray;
     opacity: 0.9;
@@ -66,7 +66,7 @@ body header .packshot{
   position: absolute;
   width: 220px;
   right: 30px;
-  top: 10px;
+  top: 30px;
   text-transform: uppercase;
   font: 13px 'UbuntuBold',Arial,sans-serif;  
 }

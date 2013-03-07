@@ -19,9 +19,6 @@
         padding: 0px 2px;
         text-align: center;
 }
-.countdown_show1 .countdown_section {
-        margin-left: 20px;
-}
 
 .countdown_section {
         line-height: 28px;
@@ -30,7 +27,7 @@
         font-size: 75%;
         padding: 4px 0px 10px 0px;
         float: left;
-        width: 33%;
+        width: 25%;
 }
 .countdown_amount {
         font-size: 200%;

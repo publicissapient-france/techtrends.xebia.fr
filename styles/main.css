@@ -14,13 +14,13 @@ body header {
 
 .container {
 	position: relative;
-  width: 750px;
+  width: 900px;
 }
 
 body header .legend{
     font: 22px 'Ubuntu',Arial,sans-serif;
     letter-spacing:5px;
-	width: 80%;
+	width: 70%;
 	position: absolute;
 	right:   0px;
 	top: 118px;
@@ -48,15 +48,16 @@ body header .packshot{
 	background: url(../img/techtrends-logo.png) 0px 0px no-repeat;
 	height: 60px;
 	width: 360px;
-  margin: 30px 0px 15px 20px;
+  margin: 30px 0px 15px 120px;
 }
 
 .intro .text {
 	height: 60px;
 	width: 390px;
 	font: 20px 'Ubuntu',Arial,sans-serif;
-  margin: 0px 0px 50px 30px;
+  margin: 0px 0px 50px 110px;
   font-style: italic;
+  text-align: center;
 }
 
 .row {
@@ -157,8 +158,7 @@ margin-bottom: 30px;
     background-color: #eee;
     border:solid 1px #fff;
     padding: 5px 2px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    margin: 10px 10px 10px 0px;
 }
 
 .form-container button{
@@ -169,6 +169,7 @@ margin-bottom: 30px;
     color: #fff;
     width:100px;
     background-color: rgb(0,187,234);
+    margin-left: 40px;
 }
 .social {
   background-color: #d7d5d0;

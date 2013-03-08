@@ -184,26 +184,26 @@ margin-bottom: 30px;
   position: absolute;
 }
 .social .work-twitter {
-  left: 40px;
+  left: 90px;
   width: 140px;
   height: 35px;
   background: url('../img/work-twitter.png') no-repeat;
 }
 .social .work-viadeo {
-  left: 220px;
+  left: 290px;
   width: 140px;
   height: 35px;
   background: url('../img/work-viadeo.png') no-repeat;
 }
 .social .work-googleplus {
     margin-top: 2px;
-  left: 390px;
+  left: 470px;
   width: 140px;
   height: 35px;
   background: url('../img/work-googleplus.png') no-repeat;
 }
 .social .work-linkedin {
-  left: 575px;
+  left: 660px;
   width: 140px;
   height: 35px;
   background: url('../img/work-linkedin.png') no-repeat;

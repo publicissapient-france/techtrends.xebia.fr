@@ -5,10 +5,11 @@
     background-color: rgb(0,187,234);
     color: white;
     color: rgb(0,187,234);
-    font: 14px 'UbuntuBold',Arial,sans-serif;  
+    font: 14px 'Ubuntu',Arial,sans-serif;  
     border:2px solid;
     border-radius:10px;
     -moz-border-radius:10px; /* Old Firefox */
+    font-weight: bold;
 }
 .countdown_rtl {
         direction: rtl;
@@ -25,7 +26,7 @@
         display: block;
         float: left;
         font-size: 75%;
-        padding-top: 6px;
+        padding-top: 5px;
         float: left;
         width: 25%;
 }
@@ -33,3 +34,5 @@
         font-size: 200%;
         color: #fff;
 }
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);

@@ -131,7 +131,7 @@ li.list1 {list-style: square outside; color:rgb(0,187,234); }
 
 .subscribe{
   padding-right: 290px;
-margin-bottom: 30px;
+margin-bottom: 60px;
 
 }
 
@@ -144,6 +144,10 @@ margin-bottom: 30px;
     margin: 0px;
     display: inline-block;
     letter-spacing: 1px;
+}
+.subscribe h2 a{
+    text-decoration: underline;
+    color:#fff;
 }
 
 .subscribe .form-container {

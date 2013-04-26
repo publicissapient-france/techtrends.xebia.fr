@@ -29,6 +29,12 @@
 <script type="text/javascript" src="scripts/jquery.countdown.js"></script>
 <script type="text/javascript" src="scripts/jquery.countdown-fr.js
 "></script>
+<script src="scripts/jquery.bxslider.min.js"></script>
+<script src="scripts/jquery.easing.1.3.js"></script>
+<script src="scripts/jquery.fitvids.js"></script>
+<!-- bxSlider CSS file -->
+<link href="scripts/jquery.bxslider.css" rel="stylesheet" />
+
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,italic,bold,bolditalic&amp;subset=Latin" />
 <script type="text/javascript">
 $(function () {
@@ -37,6 +43,12 @@ $(function () {
   $('#defaultCountdown').countdown({until: austDay, format: 'DHMS',}); 
 });
 </script>
+<script>$(document).ready(function(){
+  $('.bxslider').bxSlider({
+  auto: true,
+  autoControls: false
+});
+});</script>
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -53,9 +65,16 @@ $(function () {
       </div>
        <div class="row">
         <div id="stylized" class="subscribe">
-           <h2><a href="techtrends-xebia.pdf">Télécharger la version PDF</h2>
+           <h2><a href="techtrends-xebia.pdf">Télécharger la version PDF</a></h2>
     </div>
         <div class="timer-zone">
+          <h2>Retours conférence TechTrends</h2>
+      <ul class="bxslider">
+   <li><img src="img/s1.png" /></li>
+ <li><img src="img/s2.png" /></li>
+  <li><img src="img/s3.png" /></li>
+   <li><img src="img/s4.png" /></li>
+</ul>
             <h2><a class="twitter-timeline" href="https://twitter.com/XebiaFr" data-widget-id="324098008482463744">Tweets by @XebiaFr</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 

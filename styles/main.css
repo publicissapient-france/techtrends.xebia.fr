@@ -68,7 +68,6 @@ body header .packshot{
   width: 320px;
   right: 50px;
   top: 20px;
-  text-transform: uppercase;
   font: 13px 'Ubuntu',Arial,sans-serif;  
 }
 
@@ -78,6 +77,7 @@ body header .packshot{
     margin-top: 20px;
     color: #6a205b;
     font-weight: bold;
+     text-transform: uppercase;
 }
 
 .issue {

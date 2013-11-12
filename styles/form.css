@@ -6,8 +6,18 @@
 }
 
 body {
-  padding: 20px 15%;
+   margin : 0;
+  padding : 0;
+  text-align : center;
 }
+
+.container {
+  position : relative;
+  margin : 0 auto;          /* c'est ça qui centre dans les autres */
+  padding : 0;
+  text-align : left;
+  width : 900px; 
+  }
 
 @media (max-width: 600px) {
   form > div {

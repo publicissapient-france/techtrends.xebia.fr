@@ -1,60 +1,60 @@
 
 body {
-	padding-top: 0px !important;
-	font: 20px 'UbuntuRegular',Arial,sans-serif;
+  padding-top: 0px !important;
+  font: 20px 'UbuntuRegular',Arial,sans-serif;
     color:#6d626b;
 }
 
 body header {
-	background: url(../img/header.jpg) 0px 0px no-repeat;
-	height: 165px;
-	width: 100%;
-	position: relative;
+  background: url(../img/header.jpg) 0px 0px no-repeat;
+  height: 165px;
+  width: 100%;
+  position: relative;
 }
 
 .container {
-	position: relative;
+  position: relative;
   width: 900px;
 }
 
 body header .legend{
     font: 22px 'Ubuntu',Arial,sans-serif;
     letter-spacing:5px;
-	width: 70%;
-	position: absolute;
-	right:   0px;
-	top: 118px;
-	background-color: #330b2e;
-	color: gray;
+  width: 70%;
+  position: absolute;
+  right:   0px;
+  top: 118px;
+  background-color: #330b2e;
+  color: gray;
     opacity: 0.9;
-	text-transform: uppercase;
-	padding: 10px 0 10px 15px;
+  text-transform: uppercase;
+  padding: 10px 0 10px 15px;
 }
 
 body header .packshot{
-	background: url(../img/packshot.png) 0px 0px no-repeat;
-	height: 400px;
-	width: 270px;
-	right: 25px;
-	top: 25px;
-	position: absolute;
+  background: url(../img/packshot-devops.png) 0px 0px no-repeat;
+  height: 400px;
+  width: 270px;
+  right: 25px;
+  top: 25px;
+  position: absolute;
 }
 
 .intro {
-	position: relative;
+  position: relative;
 }
 
 .logo-techtrends{
-	height: 60px;
-	width: 360px;
-  margin: 30px 0px 15px 120px;
+  height: 60px;
+  width: 360px;
+  margin: 50px 0px 15px 120px;
 }
 
 .intro .text {
-	height: 60px;
-	width: 390px;
-	font: 20px 'Ubuntu',Arial,sans-serif;
-  margin: 0px 0px 50px 110px;
+  height: 60px;
+  width: 390px;
+  font: 20px 'Ubuntu',Arial,sans-serif;
+  margin: 30px 0px 50px 110px;
   font-style: italic;
   text-align: center;
 }
@@ -63,12 +63,21 @@ body header .packshot{
   position: relative;
 }
 
-.timer-zone {
+.feed-zone {
   position: absolute;
-  width: 320px;
-  right: 50px;
-  top: 20px;
-  font: 13px 'Ubuntu',Arial,sans-serif;  
+  width: 280px;
+  right: 40px;
+  top: 50px;
+  font: 12px 'Ubuntu',Arial,sans-serif;  
+}
+.feed-zone p{
+text-align: center;
+}
+.twitter-zone {
+  position: absolute;
+  width: 380px;
+  top: 290px;
+  font: 20px 'Ubuntu',Arial,sans-serif;  
 }
 
 .timer-zone h2 {
@@ -81,59 +90,107 @@ body header .packshot{
 }
 
 .issue {
-  background-color: rgb(241,240,238);
+  background-color: #eeeeee;
   padding: 15px 0px;
+  width:430px;
 }
 
 .issue-header {
+    width: 100%;
 }
 
 .issue-header h2 {
   font: 27px 'Ubuntu',Arial,sans-serif;
-  background: url('../img/trust-bg.png');
-	margin: 0px;
-	background-color: rgba(0,0,0,0.8);
-	color: gray;
-  padding: 8px 15px 0 30px;
-  display: inline-block;
+  margin: 0px;
+  color: gray;
+  padding: 8px 15px 0 0px;
   text-transform: uppercase;
+  border-bottom: solid 1px;
 }
 
 .issue-header hr {
-	margin: 0px;
-	height: 7px;
-	background-color: rgba(0,0,0,0.8);
+  margin: 0px;
+  height: 7px;
+  background-color: rgba(0,0,0,0.8);
     background: url('../img/trust-bg.png');
-	border: 0px;
+  border: 0px;
 }
 
 .issue h3 {
   font: 24px 'Ubuntu',Arial,sans-serif;
-	background-color: rgb(0,187,234);
-	color: white;
-	padding: 10px 0px 8px 20px;
+  background-color: rgb(0,187,234);
+  color: white;
+  padding: 10px 0px 8px 20px;
   margin: 0;
-	text-transform: uppercase;
-	width: 290px;
+  text-transform: uppercase;
+  width: 430px;
 }
 .issue h4 {
-	background-color: rgb(0,187,234);
-	color: white;
-	padding: 10px 0px 8px 20px;
-	width: 270px;
-	font: 18px 'Ubuntu',Arial,sans-serif;
+  background-color: rgb(0,187,234);
+  color: white;
+  padding: 10px 0px 8px 20px;
+  width: 430px;
+  font: 18px 'Ubuntu',Arial,sans-serif;
   font-style: italic;
 }
+.issue-desc {
+  position: absolute;
+  width: 380px;
+  right: 30px;
+  top: 137px;
+  font: 18px 'Ubuntu',Arial,sans-serif;  
+}
 
+.issue-desc h3 {
+ font: 24px 'Ubuntu',Arial,sans-serif;
+  background-color: rgb(0,187,234);
+  color: white;
+  padding: 10px 0px 8px 20px;
+  margin: 0;
+  text-transform: uppercase;
+  width: 380px;
+
+}
+
+.issue-desc h3 a{
+ font: 20px 'Ubuntu',Arial,sans-serif;
+  background-color: rgb(0,187,234);
+  color: white;
+  padding: 10px 0px 8px 20px;
+  margin: 0;
+  text-transform: uppercase;
+  width: 380px;
+text-decoration: underline;
+}
          
 li.list1 {list-style: square outside; color:rgb(0,187,234); }
 .blacktext {color:#6d626b; font: 19px 'Ubuntu'; }
 
+.dowload{
+position: absolute;
+right: 30px;
+top: 70px;
+}
+.dowload h2{
+  text-align: center;
+    font-size:12px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 0px;
+    display: inline-block;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.dowload h2 a{
+    color: rgb(0,187,234);
+}
+
 .subscribe{
-  padding-left: 150px;
+  text-align: center;
 margin-bottom: 60px;
 
 }
+
 
 .subscribe h2{
   text-align: center;

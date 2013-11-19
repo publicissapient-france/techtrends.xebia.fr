@@ -141,6 +141,10 @@ text-align: center;
   font: 18px 'Ubuntu',Arial,sans-serif;  
 }
 
+.issue-desc p {
+  text-align:justify;
+}
+
 .issue-desc h3 {
  font: 24px 'Ubuntu',Arial,sans-serif;
   background-color: rgb(0,187,234);

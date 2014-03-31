@@ -198,7 +198,6 @@ margin-bottom: 60px;
 
 .subscribe h2{
   text-align: center;
-    background-color: rgb(0,187,234);
     font-size:14px;
     text-transform: uppercase;
     color:#fff;
@@ -314,6 +313,14 @@ margin-bottom: 60px;
 .logo-alliance {
     margin-top: 10px;
     float: left;
+}
+
+.orange {
+    background-color: #f99b1d;
+}
+
+.blue {
+    background-color: rgb(0,187,234);
 }
 
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);

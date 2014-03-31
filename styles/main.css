@@ -32,10 +32,10 @@ body header .legend{
 }
 
 body header .packshot{
-  background: url(../img/packshot-devops.png) 0px 0px no-repeat;
-  height: 400px;
-  width: 270px;
-  right: 25px;
+  background: url(../img/packshot-agile.png) 0px 0px no-repeat;
+  height: 297px;
+  width: 230px;
+  right: 45px;
   top: 25px;
   position: absolute;
 }
@@ -142,7 +142,7 @@ text-align: center;
 }
 
 .issue-desc p {
-  text-align:justify;
+  text-align:left;
 }
 
 .issue-desc h3 {
@@ -168,7 +168,7 @@ text-decoration: underline;
 }
          
 li.list1 {list-style: square outside; color:rgb(0,187,234); }
-.blacktext {color:#6d626b; font: 19px 'Ubuntu'; }
+.blacktext {color:#6d626b; font: 17px 'Ubuntu'; }
 
 .download{
 position: absolute;

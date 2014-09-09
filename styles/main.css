@@ -168,7 +168,7 @@ text-decoration: underline;
 }
          
 li.list1 {list-style: square outside; color:rgb(0,187,234); }
-.blacktext {color:#6d626b; font: 17px 'Ubuntu'; }
+.blacktext {color:#6d626b; font: 16px 'Ubuntu'; }
 
 .download{
 position: absolute;

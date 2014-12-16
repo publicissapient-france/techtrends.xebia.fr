@@ -32,8 +32,8 @@ body header .legend{
 }
 
 body header .packshot{
-  background: url(../img/packshot-craft.jpg) 0px 0px no-repeat;
-  height: 297px;
+  background: url(../img/packshot-front.jpg) 0px 0px no-repeat;
+  height: 307px;
   width: 230px;
   right: 45px;
   top: 25px;

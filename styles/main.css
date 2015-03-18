@@ -234,6 +234,74 @@ margin-bottom: 60px;
     background-color: rgb(0,187,234);
     margin-left: 40px;
 }
+
+.lightbox
+{
+  display: none;
+  color: #fff;
+  font-size: 16px;
+
+}
+
+.button
+{
+  color: #fff;
+  background-color: #06a99c;
+  border-radius: 3px;
+  border:none;
+  font-size: 14px;
+  padding: 10px 15px;
+    -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+.button:hover
+{
+  background-color: #08dac9;
+
+}
+
+.button a
+{
+  color: #FFF;
+  text-decoration: none;
+}
+
+form
+{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+form input
+{
+  font-size: 16px;
+  width: 100%;
+  border:2px solid #6a205f;
+  padding: 5px;
+}
+
+form input:focus
+{
+  outline: none;
+}
+
+form img
+{
+  padding-bottom: 25px;
+  padding-top: 5px;
+}
+
+
+.cancel
+{
+  float: right;
+}
+
+
 .social {
   background-color: #d7d5d0;
   position: relative;
@@ -289,7 +357,7 @@ margin-bottom: 60px;
     background: url('../img/footer-logo-xebia.png') 0px 20px no-repeat #f1f0ee;
 }
 .footer .tagline-alliance {
-    width: 480px;
+    width: 640px;
     margin: auto;
     height: 47px;
     border-top: 1px solid #bebab8;
@@ -311,7 +379,7 @@ margin-bottom: 60px;
    text-decoration: underline;
 }
 .logo-alliance {
-    margin-top: 10px;
+    margin-top: 5px;
     float: left;
 }
 

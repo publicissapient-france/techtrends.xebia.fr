@@ -90,6 +90,7 @@
         <div class="lightbox" id="pop-up-telechargement">
             <form id="popupform">
                 <img src="img/techtrends-logo.png" alt="logo techtrends"/><br/>
+                <input id="techtrends" type="hidden" name="techtrends" value="data-lab" />
                 <label>Adresse mail :</label>
                 <input id="email" name="email" type="email" required autofocus></input><br/><br/>
                 <label for="societe">Société :</label>
@@ -445,12 +446,12 @@
                     emailEl.style.border = error;
                     return;
                 }
+                var tab = $('.ui-tabs-active').attr('aria-controls');
                 $.ajax({
                   type: "POST",
                   url: "http://form.xebia.fr/tt-form.php",
-                  data: {email:document.querySelectorAll('#email')[1].value, societe:document.querySelectorAll('#societe')[1].value}
+                  data: {email:document.querySelectorAll('#email')[1].value, societe:document.querySelectorAll('#societe')[1].value, techtrends: tab}
                 });
-                var tab = $('.ui-tabs-active').attr('aria-controls');
                 var url = urls[tab];
                 window.location.href= url ? url :'http://techtrends.xebia.fr/techtrends-xebia-datalab.pdf';
 

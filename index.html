@@ -90,13 +90,17 @@
         <div class="lightbox" id="pop-up-telechargement">
             <form id="popupform">
                 <img src="img/techtrends-logo.png" alt="logo techtrends"/><br/>
-                <input id="techtrends" type="hidden" name="techtrends" value="data-lab" />
+
+                <p>A chaque nouvelle sortie, vous voulez être le premier informé ? Précisez les informations suivantes.</p>
+
                 <label>Adresse mail :</label>
                 <input id="email" name="email" type="email" required autofocus></input><br/><br/>
                 <label for="societe">Société :</label>
                 <input id="societe" name="societe" type="text" required="true"/>
                 <br/><br/>
                 <input type="submit" class="button" id="download" value="Télécharger" />
+
+                <a href="#" target="_blank" id="nodl">Oublier cette étape et continuer le téléchargement</a>
 
             </form>
         </div>
@@ -109,6 +113,7 @@
                 <li><a href="#craft">Craft</a></li>
                 <li><a href="#front">Front</a></li>
                 <li><a href="#data-lab">Data Lab</a></li>
+                <li><a href="#back">Back</a></li>
             </ul>
             <hr>
             <div id="big-data">
@@ -368,6 +373,45 @@
         </div>
 
 
+        <div id="back">
+             <!--<div class="download">
+                    <h2 data-featherlight="#pop-up-telechargement"><a href="">Télécharger PDF</a></h2>
+
+                    <h2><a href="mailto:marketing@xebia.fr">Demander une version papier</a></h2>
+                </div>
+                <div class="issue-header">
+                    <h2>Le programme</h2>
+                </div>
+                <div class="issue">
+                    <h3>IMAGINER</h3>
+                    <ul>
+                        <li class="list1"><span class="blacktext">Faire émerger un maximum de cas business</span></li>
+                        <li class="list1"><span class="blacktext">Sélectionner les use cases qui feront l'objet d'un prototypage</span></li>
+                    </ul>
+                    <h3>MATÉRIALISER</h3>
+                    <ul>
+                        <li class="list1"><span class="blacktext">Constituer une nouvelle équipe plus orientée technique et la doter des technologies les plus pertinentes et une architecture adaptée</span></li>
+                        <li class="list1"><span class="blacktext">Déterminer les données disponibles et pouvant être collectées</span></li>
+                        <li class="list1"><span class="blacktext">Centraliser toutes les données dans un Data Lake</span></li>
+                    </ul>
+                    <h3>EXPLOITER</h3>
+                    <ul>
+                        <li class="list1"><span class="blacktext">Réaliser votre PoC via l'exploration, le nettoyage et l'analyse des données</span></li>
+                        <li class="list1"><span class="blacktext">Pour passer ce PoC en production, gérer finement les ressources de votre cluster de données et exposer les résultats aux consommateurs finaux</span></li>
+
+                    </ul>
+                </div>
+                <div class="issue-desc">
+
+                    <p class="blacktext">Depuis quelques années maintenant, les « Big Data » font le buzz : impossible de passer à côté de ce phénomène né des nouveaux usages du Web, de l'explosion des données personnelles et des avancées technologiques dans le calcul distribué. Au-delà du mot et de la tendance, comment en tirer profit au sein de votre entreprise ? En construisant un Data Lab.</p>
+                     <p class="blacktext">Un Data Lab repose sur trois piliers : une équipe, un lieu et une approche. Monter un Lab, c'est faire travailler des personnes triées sur le volet, dans un lieu dédié en les dotant de l'outillage et des méthodologies les mieux adaptées afin de tirer avantage des données qui les entourent.</p>
+                     <p class="blacktext">Celui-ci prône l'adoption d'une approche dite « Business Driven » qui s'avère souvent fructueux grâce à la recherche de use cases sous un angle business.</p>
+                </div>-->
+
+                <img src="img/coming-soon-techtrends-xebia.png" alt="Coming Soon" title="Techtrends Coming Soon"/>
+        </div>
+
+
     </div>
     <div class="social">
         <a href="https://twitter.com/XebiaFr" class="work-twitter" target="_blank"></a>
@@ -429,6 +473,12 @@
             "front": "http://techtrends.xebia.fr/techtrends-xebia-front.pdf",
             "data-lab": "http://techtrends.xebia.fr/techtrends-xebia-datalab.pdf"
         };
+
+        $('#nodl').on('click', function() {
+          var tab = $('.ui-tabs-active').attr('aria-controls');
+          var url = urls[tab];
+          window.location.href= url ? url :'http://techtrends.xebia.fr/techtrends-xebia-datalab.pdf';
+        })
         $('#popupform').on('submit', function(e){
             e.preventDefault();
 

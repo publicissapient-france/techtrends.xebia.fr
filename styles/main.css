@@ -68,7 +68,7 @@ body header .packshot{
   width: 280px;
   right: 40px;
   top: 50px;
-  font: 12px 'Ubuntu',Arial,sans-serif;  
+  font: 12px 'Ubuntu',Arial,sans-serif;
 }
 .feed-zone p{
 text-align: center;
@@ -77,7 +77,7 @@ text-align: center;
   position: absolute;
   width: 380px;
   top: 290px;
-  font: 20px 'Ubuntu',Arial,sans-serif;  
+  font: 20px 'Ubuntu',Arial,sans-serif;
 }
 
 .timer-zone h2 {
@@ -138,7 +138,7 @@ text-align: center;
   width: 380px;
   right: 30px;
   top: 137px;
-  font: 18px 'Ubuntu',Arial,sans-serif;  
+  font: 18px 'Ubuntu',Arial,sans-serif;
 }
 
 .issue-desc p {
@@ -166,7 +166,7 @@ text-align: center;
   width: 380px;
 text-decoration: underline;
 }
-         
+
 li.list1 {list-style: square outside; color:rgb(0,187,234); }
 .blacktext {color:#6d626b; font: 16px 'Ubuntu'; }
 
@@ -293,6 +293,21 @@ form img
 {
   padding-bottom: 25px;
   padding-top: 5px;
+  padding-left: 170px;
+}
+
+form a
+{
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+  float: right;
+  padding-top: 10px;
+}
+
+form a:hover
+{
+  text-decoration: underline;
 }
 
 
@@ -307,7 +322,7 @@ form img
   position: relative;
   height: 65px;
   margin-top: 10px;
-  margin-bottom: 10px;   
+  margin-bottom: 10px;
   padding-top: 15px;
 }
 .social a {
@@ -392,4 +407,3 @@ form img
 }
 
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);
-

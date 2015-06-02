@@ -32,7 +32,7 @@ body header .legend{
 }
 
 body header .packshot{
-  background: url(../img/packshot-datalab.png) 0px 0px no-repeat;
+  background: url(../img/packshot-back.png) 0px 0px no-repeat;
   height: 307px;
   width: 230px;
   right: 45px;

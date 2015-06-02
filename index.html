@@ -82,7 +82,7 @@
 
     <div class="row">
         <div id="stylized" class="subscribe">
-            <h2 class="blue" data-featherlight="#pop-up-telechargement"><a href="">#6 - Data Lab - Télécharger au format PDF</a></h2>
+            <h2 class="blue" data-featherlight="#pop-up-telechargement"><a href="">#7 - Back - Coming Soon</a></h2>
 
             <h2 class="blue"><a href="mailto:marketing@xebia.fr">Demander une version papier</a></h2>
         </div>
@@ -478,7 +478,7 @@
         $('#nodl').on('click', function() {
           var tab = $('.ui-tabs-active').attr('aria-controls');
           var url = urls[tab];
-          window.location.href= url ? url :'http://techtrends.xebia.fr/techtrends-xebia-datalab.pdf';
+          window.location.href= url ? url :'http://techtrends.xebia.fr/techtrends-xebia-back.pdf';
         })
         $('#popupform').on('submit', function(e){
             e.preventDefault();
@@ -504,7 +504,7 @@
                   data: {email:document.querySelectorAll('#email')[1].value, societe:document.querySelectorAll('#societe')[1].value, techtrends: tab}
                 });
                 var url = urls[tab];
-                window.location.href= url ? url :'http://techtrends.xebia.fr/techtrends-xebia-datalab.pdf';
+                window.location.href= url ? url :'http://techtrends.xebia.fr/techtrends-xebia-back.pdf';
 
             } else {
                 email.length > 0 ? emailEl.style.border = normal : emailEl.style.border = error;

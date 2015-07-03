@@ -509,6 +509,12 @@
                   data: {email:document.querySelectorAll('#email')[1].value, societe:document.querySelectorAll('#societe')[1].value, techtrends: tab}
                 });
                 var url = urls[tab];
+                ga('send', {
+                  'hitType': 'event',          // Required.
+                  'eventCategory': 'form',   // Required.
+                  'eventAction': 'download',      // Required.
+                  'eventLabel': url,
+                });
                 window.location.href= url ? url :'http://techtrends.xebia.fr/techtrends-xebia-back.pdf';
 
             } else {
